@@ -1,10 +1,80 @@
-# HealthAI
-![Screenshot 2025-03-03 015438](https://github.com/user-attachments/assets/0b6b3684-1b38-4efc-ac16-821ba9cdb1bf)
-![Screenshot 2025-03-03 015458](https://github.com/user-attachments/assets/c6005edd-3d2f-4dc7-977a-0941cebdf5ca)
-![Screenshot 2025-03-03 015527](https://github.com/user-attachments/assets/74fc440a-41cb-427a-a9e9-0396958b66d8)
-![Screenshot 2025-03-03 015549](https://github.com/user-attachments/assets/24ab5c81-be2d-4041-84dc-ce8f207713a3)
-![Screenshot 2025-03-03 015704](https://github.com/user-attachments/assets/aa97c217-278b-46e1-bbc2-714dc9519f72)
-![Screenshot 2025-03-03 015730](https://github.com/user-attachments/assets/f5d34be7-149a-48d7-b715-181cd2bb2279)
-![Screenshot 2025-03-03 015753](https://github.com/user-attachments/assets/3165d61a-b3e9-4c68-873e-0495e2ece435)
-![Screenshot 2025-03-03 015833](https://github.com/user-attachments/assets/464c2f5f-07f0-48a1-bb27-7c902548fd9d)
-![Screenshot 2025-03-03 015848](https://github.com/user-attachments/assets/8c803ccd-665f-4be5-bd73-5b530aa1aba7)
+# AI-Powered Healthcare Platform
+
+A comprehensive healthcare platform that uses AI to provide personalized health recommendations, track user health metrics, and predict potential health risks.
+
+## Features
+
+- **Dashboard**: Overview of health metrics, AI recommendations, and health score
+- **Health Metrics Tracking**: Visualize various health data like heart rate, steps, sleep, etc.
+- **AI-driven Symptom Checker**: Analyze symptoms and get potential conditions with recommendations
+- **Personalized Health Plans**: AI-generated exercise and diet plans
+- **Health Risk Assessment**: AI-powered analysis of potential health risks with preventive actions
+- **User Profile**: Manage personal information and connected devices
+
+## Tech Stack
+
+- **Frontend**: React with TypeScript
+- **Backend**: Python with Flask
+- **Data Visualization**: Chart.js
+- **UI Components**: Custom components with Tailwind CSS
+- **Icons**: Lucide React
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- Python 3.6 or higher
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install frontend dependencies:
+   ```
+   npm install
+   ```
+3. Install Python dependencies:
+   ```
+   pip install flask flask-cors
+   ```
+
+### Running the Application
+
+1. Start the Python backend:
+   ```
+   npm run start-api
+   ```
+   This will start the Flask server on http://localhost:5000
+
+2. In a separate terminal, start the frontend:
+   ```
+   npm run dev
+   ```
+   This will start the React app on http://localhost:5173
+
+## Project Structure
+
+- `/src`: React frontend code
+  - `/components`: Reusable UI components
+  - `/pages`: Main application views
+  - `/services`: API service functions
+  - `/types`: TypeScript interfaces
+  - `/data`: Mock data (for development)
+- `/api`: Python backend code
+  - `app.py`: Main Flask application
+  - `/data`: Data storage for the backend
+
+## AI Features
+
+The platform uses Python-based AI algorithms to:
+
+1. **Analyze health metrics** and identify patterns
+2. **Generate personalized recommendations** based on user data
+3. **Predict potential health risks** using statistical models
+4. **Create customized health plans** tailored to individual needs
+5. **Analyze symptoms** and suggest possible conditions
+
+## License
+
+MIT
