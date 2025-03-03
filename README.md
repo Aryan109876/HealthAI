@@ -75,6 +75,3 @@ The platform uses Python-based AI algorithms to:
 4. **Create customized health plans** tailored to individual needs
 5. **Analyze symptoms** and suggest possible conditions
 
-## License
-
-MIT
